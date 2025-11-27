@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
 return (
-<footer className="bg-slate-900 text-slate-300 py-8">
+<footer className="footer-horizontal footer-center bg-slate-900 text-slate-300 p-10">
 <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-start gap-6">
 <div>
 <div className="text-white font-semibold mb-2">Integrated Systems AI</div>
