@@ -1,12 +1,28 @@
 import React from 'react'
+import animationData from "../../assets/Ai Machine.json"
+import Lottie from 'lottie-react'
+import Shuffle from './BlurText'
+import BlurText from './BlurText';
+
 
 
 export default function Hero() {
+    const handleAnimationComplete = () => {
+  console.log('Animation completed!');
+};
+
 return (
-<section className=" py-20">
-<div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
+<section className="py-20 " data-aos="zoom-in-up">
+<div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-8 items-center">
 <div>
-<h1 className="text-4xl md:text-5xl font-extrabold leading-tight">Integrated Systems AI</h1>
+<BlurText
+  text="Integrated Systems AI"
+  delay={150}
+  animateBy="words"
+  direction="top"
+  onAnimationComplete={handleAnimationComplete}
+  className="text-5xl mb-8 font-bold text-blue-500"
+/>
 <p className="mt-4 text-lg text-slate-600">Harnessing Artificial Intelligence to drive efficiency, empower workforces, and accelerate innovation.</p>
 
 
@@ -22,8 +38,15 @@ return (
 </div>
 
 
-<div className="p-6 rounded-xl bg-white shadow-md">
-<div className="h-56 bg-gradient-to-br from-indigo-50 to-cyan-50 rounded-md flex items-center justify-center text-slate-400">Image / Mockup</div>
+<div className="">
+<div className="h-56 rounded-md flex items-center justify-center ">
+    <Lottie
+              animationData={animationData}
+              loop={true}
+              style={{ height: "280px", width: "280px" }}
+            />
+
+</div>
 </div>
 </div>
 </section>

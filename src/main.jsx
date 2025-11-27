@@ -6,6 +6,13 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Toaster } from 'react-hot-toast';
 import { createRoot } from 'react-dom/client';
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 800,
+  once: false,
+});
 
 
 
