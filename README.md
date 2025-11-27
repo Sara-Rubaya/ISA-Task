@@ -24,7 +24,7 @@ This project showcases a modern, responsive website for a tech company with:
 ## 🌐 Live Demo
 
 Check the live project here:  
-[Live Demo](https://your-live-demo-link.com)  
+[Live Demo](https://isa-task.netlify.app/)  
 
 ---
 
@@ -37,23 +37,6 @@ Check the live project here:
 - **Heroicons** (Icons)  
 - HTML5 & CSS3  
 
----
-
-## 🖼️ Screenshots
-
-_Hero Section_  
-![Hero](./screenshots/hero.png)  
-
-_Services Section_  
-![Services](./screenshots/services.png)  
-
-_Vision Section_  
-![Vision](./screenshots/vision.png)  
-
-_Contact Section_  
-![Contact](./screenshots/contact.png)  
-
-> You can replace these screenshots with your own captured images.
 
 ---
 
@@ -65,11 +48,5 @@ _Contact Section_
 - Clean, professional, and minimal design  
 - Fully responsive layout
 
----
 
-## 🖥️ Installation & Setup
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/isa-task.git
