@@ -1,16 +1,75 @@
-# React + Vite
+# ISA Task Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.3.0-blue?logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?logo=javascript&logoColor=black)
 
-Currently, two official plugins are available:
+**Integrated Systems AI (ISA) Task Project**  
+A responsive and modern web application created as part of my ISA Task to demonstrate front-end development, animations, and UI design skills.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📝 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project showcases a modern, responsive website for a tech company with:  
 
-## Expanding the ESLint configuration
+- **Interactive Hero Section** with animated text (`BlurText`) and Lottie animation.  
+- **Services Section** highlighting strategic focus areas.  
+- **Vision Section** with AOS animations.  
+- **Contact Section** for easy communication.  
+- Fully **responsive** for desktop and mobile.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🌐 Live Demo
+
+Check the live project here:  
+[Live Demo](https://your-live-demo-link.com)  
+
+---
+
+## ⚙️ Technologies Used
+
+- **React.js**  
+- **Tailwind CSS**  
+- **Lottie-react** (animations)  
+- **AOS** (Animate On Scroll)  
+- **Heroicons** (Icons)  
+- HTML5 & CSS3  
+
+---
+
+## 🖼️ Screenshots
+
+_Hero Section_  
+![Hero](./screenshots/hero.png)  
+
+_Services Section_  
+![Services](./screenshots/services.png)  
+
+_Vision Section_  
+![Vision](./screenshots/vision.png)  
+
+_Contact Section_  
+![Contact](./screenshots/contact.png)  
+
+> You can replace these screenshots with your own captured images.
+
+---
+
+## 🚀 Features
+
+- Gradient headings and modern typography  
+- Interactive buttons with hover effects  
+- Smooth AOS scroll animations  
+- Clean, professional, and minimal design  
+- Fully responsive layout
+
+---
+
+## 🖥️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/isa-task.git
